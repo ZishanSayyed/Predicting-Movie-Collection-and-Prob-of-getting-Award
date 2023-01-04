@@ -1,5 +1,5 @@
 ################################# Classification Decision Tree ###############################################
-movie2=read.csv("C:/Users/ADMIN/OneDrive/Documents/ML/Decison tree/Movie_classification.csv")
+movie2=read.csv("C:/Users/zishan.sayyed/OneDrive - Interpublic/Documents/GitHub/Predicting-Movie-Collection-and-Prob-of-getting-Award/Movie_classification.csv")
 View(movie2)
 
 summary(movie2)
