@@ -8,6 +8,8 @@ summary(movie2)
 movie2$Time_taken[is.na(movie2$Time_taken)]=mean(movie2$Time_taken,na.rm = TRUE)
 summary(movie2$Time_taken)
 
+table(movie2$Genre)
+
 library(caTools)
 set.seed(0)
 split=sample.split(movie2,SplitRatio = 0.8)
